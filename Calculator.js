@@ -10,7 +10,7 @@ numbers.forEach(val => {
         const str = val.innerText;
         if(resultDisplayed) {
             resultDisplayed = false;
-            if(str>='0' && str<='9')
+            if(str>='0' && str<='9' || display.innerText=='Infinity')
                 display.innerText = "";
         }
         const exp = display.innerText + str;
@@ -82,6 +82,7 @@ answer.addEventListener("click", () => {
         }
     resultDisplayed = true;
     display.innerText = result;
+    console.log(result)
     } catch (e) {
         alert("Invalid Input! Try Again");
         display.innerText = "";
