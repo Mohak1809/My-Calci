@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, aquamarine, blue);
+}
+
+
+.calculator {
+    width: 42vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-color: blue;
+    padding: 15px 9px;
+}
+
+.box {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 0.5rem;
+    font-size: 25px;
+    box-shadow: 5px 5px 10px darkblue;
+}
+
+.expression {
+    height: 4rem;
+    width: 92.5%;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 48px;
+    line-height: 4rem;
+    letter-spacing: 2px;
+    background-color: #fff;
+    text-align: end;
+    box-shadow: 5px 5px 10px darkblue;
+}
+
+#equal {
+    width: 9rem;
+    font-size: 30px;
+    background-color: orange;
+}
+
+
+.operator {
+    background-color: rgb(128, 128, 128);
+    font-size: 30px;
+}
+
+#delete {
+    color: red;
+}
+
+.box:hover {
+    background-color: rgb(255, 255, 255 , 0.9)
+}
+.operator:hover {
+    background-color: rgb(128, 128, 128, 0.9);
+}
+#equal:hover {
+    background-color: rgb(255, 165, 0, 0.9)
+}
