@@ -82,6 +82,9 @@ answer.addEventListener("click", () => {
         }
     resultDisplayed = true;
     display.innerText = result;
+    if(display.innerText.length>11) {
+        display.style.fontSize = "35px";
+    }
     console.log(result)
     } catch (e) {
         alert("Invalid Input! Try Again");

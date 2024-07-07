@@ -15,7 +15,8 @@
 
 
 .calculator {
-    width: 48vmin;
+    max-width: 45vmin;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,11 +79,11 @@
 
 @media (max-width: 500px) {
     .calculator {
-        width: 86vmin;
+        max-width: 86vmin;
     }
 }
 @media (max-width: 400px) {
     .calculator {
-        width: 95vmin;
+        max-width: 95vmin;
     }
 }
