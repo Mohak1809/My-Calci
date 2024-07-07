@@ -21,3 +21,6 @@ Please take a moment to check it out and share your thoughts
         cd Calculator
         ```
 3. Then Run the Calculator
+
+
+You can also use the link attached with the file for using it.
