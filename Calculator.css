@@ -19,17 +19,18 @@
     width: 100%;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     border: 2px solid black;
     border-radius: 10px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     background-color: blue;
     padding: 15px 9px;
 }
 
 .box {
-    height: 3.7rem;
-    width: 3.7rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 5px;
     border: 2px solid black;
     margin: 0.5rem;
@@ -39,7 +40,7 @@
 
 .expression {
     height: 4rem;
-    width: 92.5%;
+    width: 90%;
     margin: 10px;
     border-radius: 5px;
     border: 2px solid black;
@@ -52,7 +53,7 @@
 }
 
 #equal {
-    width: 8.4rem;
+    width: 9rem;
     font-size: 30px;
     background-color: orange;
 }
@@ -76,7 +77,22 @@
 #equal:hover {
     background-color: rgb(255, 165, 0, 0.9)
 }
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
+@media (max-width: 1000px) {
+    .calculator {
+        max-width: 48vmin;
+    }
+}
+@media (max-width: 780px) {
+    .calculator {
+        max-width: 58vmin;
+    }
+}
 @media (max-width: 500px) {
     .calculator {
         max-width: 86vmin;
